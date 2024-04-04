@@ -95,7 +95,7 @@ public class ProductManagement
             }
         }
         if (!check){
-            System.out.println("Khong tim thay san pham muon xoa");
+            System.out.println("Khong tim thay san pham muon tim");
         }
     }
 
