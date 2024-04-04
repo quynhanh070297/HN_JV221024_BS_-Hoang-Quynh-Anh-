@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d595f4d-2372-4ee5-b225-42198770b742" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HN_ JV221024_BS_HoangQuynhhAnh.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/business/IProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/businessImp/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/config/InputMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/main/ProductManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ra/main/ProductManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ra/main/ProductManagement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,26 +93,11 @@
       <workItem from="1712202616122" duration="126000" />
       <workItem from="1712202838105" duration="63000" />
       <workItem from="1712202936487" duration="52000" />
-      <workItem from="1712203044120" duration="2336000" />
+      <workItem from="1712203044120" duration="3266000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/ra/main/ProductManagement.java</url>
-          <line>94</line>
-          <properties class="ra.main.ProductManagement" method="searchProductByName">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

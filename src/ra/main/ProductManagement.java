@@ -21,8 +21,6 @@ public class ProductManagement
     }
     public static void main(String[] args)
     {
-
-
         while (true){
             System.out.println("-----------MENU----------------");
             System.out.println("****************JAVA-HACKATHON-05-BASIC-MENU***************\n" +
@@ -68,13 +66,18 @@ public class ProductManagement
     {
         System.out.println("Moi ban nhap ID muon xoa");
         int deleteId = InputMethods.getInteger();
+        boolean check = false;
         for (Product product1 : productList)
         {
             if (deleteId == product1.getProductId()){
                 productList.remove(product1);
                 System.out.println("Xoa thanh cong");
+                check = true;
                 break;
             }
+        }
+        if (!check){
+            System.out.println("Khong tim thay ID muon xoa");
         }
     }
 
@@ -100,17 +103,22 @@ public class ProductManagement
     {
         System.out.println("Nhap vao ma san pham");
         int changeStatus = InputMethods.getInteger();
+        boolean check = false;
         for (Product product1 : productList)
-        {if (changeStatus == product1.getProductId()){
+        {
+            if (changeStatus == product1.getProductId()){
             if (product1.getProductStatus()){
                 product1.setProductStatus(false);
             }else {
                 product1.setProductStatus(true);
             }
             System.out.println("Da thay doi trang thai");
+            check = true;
         }
         }
-
+        if (!check){
+            System.out.println("Khong tim thay ma san pham muon xoa");
+        }
     }
 
     private static void sortByInterest()
